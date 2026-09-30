@@ -2,7 +2,7 @@
     margin: 0;
 }
 body {
-    width: 23.375rem;
+    width: 24.375rem;
 }
 .head {
     width: 24.375rem;
@@ -654,82 +654,105 @@ body {
     height: 33.3125rem;
 }
 .engine-1 {
-    width: 100%;
+    width: 100vw;
     height: 30.9375rem;
+    display: flex;
+    overflow-x: auto;
+    gap: 40px;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 .slider-1-images {
     width: 17.125rem;
     height: 30.9375rem;
+    flex-shrink: 0;
+    scroll-snap-align: center;
 }
 .slider-1-image-1 {
-    background: url();
+    background: url(./slide1/bad-monkey.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .slider-1-image-2 {
-    background: url();
+    background: url(./slide1/baseball.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .slider-1-image-3 {
-    background: url();
+    background: url(./slide1/instigators.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .slider-1-image-4 {
-    background: url();
+    background: url(./slide1/k-pop-idols.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .slider-1-image-5 {
-    background: url();
+    background: url(./slide1/lady-in-the-lake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .slider-1-image-6 {
-    background: url();
+    background: url(./slide1/morning-show.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .slider-1-image-7 {
-    background: url();
+    background: url(./slide1/napoleon.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .slider-1-image-8 {
-    background: url();
+    background: url(./slide1/pachinko.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .slider-1-image-9 {
-    background: url();
+    background: url(./slide1/pressumed-innocent.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .slider-1-image-10 {
-    background: url();
+    background: url(./slide1/season-pass.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
+}
+.anchors {
+    width: 24.375rem;
+    flex-direction: row;
+    margin-top: 1rem;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.anchors a {
+    background-color: gray;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
 }
 /*
 font-family: "Inter", sans-serif;
