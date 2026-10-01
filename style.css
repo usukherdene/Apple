@@ -134,10 +134,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-.main-1-2 {
-    background: url(./ec3175b4a85620366114b7dc1d62789aa36c0536.jpg);
-    display: none;
-}
 .main-2-1 {
     background: url(./bca14fea5cc383f10eb575ae23034d12bd94613d.jpg);
     background-size: cover;
@@ -209,10 +205,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.main-2-2 {
-    background: url(./6e2272f55593e27e01766f0a588a5585328895e1.jpg);
-    display: none;
 }
 .main {
     width: 24.375rem;
@@ -658,7 +650,7 @@ body {
     height: 30.9375rem;
     display: flex;
     overflow-x: auto;
-    gap: 40px;
+    gap: 2.5rem;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     scrollbar-width: none;
@@ -669,90 +661,320 @@ body {
     flex-shrink: 0;
     scroll-snap-align: center;
 }
-.slider-1-image-1 {
+#slider-1-image-1 {
     background: url(./slide1/bad-monkey.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
-.slider-1-image-2 {
+#slider-1-image-2 {
     background: url(./slide1/baseball.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
-.slider-1-image-3 {
+#slider-1-image-3 {
     background: url(./slide1/instigators.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
-.slider-1-image-4 {
+#slider-1-image-4 {
     background: url(./slide1/k-pop-idols.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
-.slider-1-image-5 {
+#slider-1-image-5 {
     background: url(./slide1/lady-in-the-lake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
-.slider-1-image-6 {
+#slider-1-image-6 {
     background: url(./slide1/morning-show.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
-.slider-1-image-7 {
+#slider-1-image-7 {
     background: url(./slide1/napoleon.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
-.slider-1-image-8 {
+#slider-1-image-8 {
     background: url(./slide1/pachinko.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
-.slider-1-image-9 {
+#slider-1-image-9 {
     background: url(./slide1/pressumed-innocent.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
-.slider-1-image-10 {
+#slider-1-image-10 {
     background: url(./slide1/season-pass.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 .anchors {
-    width: 24.375rem;
+    width: 100%;
     flex-direction: row;
     margin-top: 1rem;
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     align-items: center;
     justify-content: center;
 }
-.anchors a {
+.anchor {
     background-color: gray;
-    height: 8px;
-    width: 8px;
-    border-radius: 4px;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 0.25rem;
+}
+.slider-2 {
+    width: 24.375rem;
+    height: 9.25rem;
+}
+.engine-2 {
+    width: 24.375rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 0.375rem;
+    scrollbar-width: none;
+}
+.slider-2-images {
+    width: 14.875rem;
+    height: 8.375rem;
+    flex-shrink: 0;
+}
+.slider-2-image-1 {
+    background: url(./slide2/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-2-image-2 {
+    background: url(./slide2/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-2-image-3 {
+    background: url(./slide2/3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-2-image-4 {
+    background: url(./slide2/4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-2-image-5 {
+    background: url(./slide2/5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-2-image-6 {
+    background: url(./slide2/6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-2-image-7 {
+    background: url(./slide2/7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-2-image-8 {
+    background: url(./slide2/8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-2-image-9 {
+    background: url(./slide2/9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-2-image-10 {
+    background: url(./slide2/10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+@media (min-width:24.4375rem) {
+    body {
+        width: 48rem;
+    }
+    .head {
+    width: 48rem;
+    height: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headcont {
+    width: 27.75rem;
+    height: 3rem;
+    margin-top: 0.75rem;
+    justify-content: center;
+}
+.main-1 {
+    width: 48rem;
+    height: 82rem;
+}
+.mains {
+    height: 40.625rem;
+}
+.main-1-1 {
+    background: url(./ec3175b4a85620366114b7dc1d62789aa36c0536.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    align-items: flex-start;
+}
+.mainframe-1 {
+    width: 25.3125rem;
+    height: 9.75rem;
+    margin-top: 3.625rem;
+}
+.main-1-title {
+    height: 3.75rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    font-size: 2.625rem;
+}
+.main-1-text {
+    height: 2rem;
+    font-size: 1.375rem;
+}
+.main-1-buttons {
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.button-1 {
+    width: 7.6875rem;
+    height: 2.75rem;
+    font-size: 1rem;
+}
+.button-2 {
+    width: 4.25rem;
+    height: 2.75rem;
+    font-size: 1rem;
+}
+.main-2-1 {
+    background: url(./6e2272f55593e27e01766f0a588a5585328895e1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0.75rem;
+    display: flex;
+    justify-content: center;
+}
+.mainframe-2 {
+    width: 25.3125rem;
+    height: 9.75rem;
+    margin-top: 3.625rem;
+}
+.main-2-title {
+    height: 3.75rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    font-size: 2.625rem;
+}
+.main-2-text {
+    height: 2rem;
+    font-size: 1.375rem;
+}
+.main-2-buttons {
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.wbutton-1 {
+    width: 7.6875rem;
+    height: 2.75rem;
+    font-size: 1rem;
+}
+.wbutton-2 {
+    width: 4.25rem;
+    height: 2.75rem;
+    font-size: 1rem;
+}
+.main {
+    width: 48rem;
+}
+.contsection {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 30.625rem);
+    border: white 12px solid;
+}
+.images {
+    width: 22.875;
+    height: 30.625rem;
+}
+.image-0 {
+    display: none;
+}
+.slider-1 {
+    width: 48rem;
+    height: 25rem;
+}
+.engine-1 {
+    width: 100%;
+    height: 23rem;
+    gap: 1rem;
+}
+.slider-1-images {
+    width: 43.0625rem;
+    height: 23rem;
+}
+.slider-2 {
+    width: 48rem;
+    height: 12.125rem;
+}
+.engine-2 {
+    width: 100%;
+    height: 10.0625rem;
+    gap: 1rem;
+}
+.slider-2-images {
+    width: 17.875rem;
+    height: 10.0625rem;
+    flex-shrink: 0;
 }
 /*
 font-family: "Inter", sans-serif;
