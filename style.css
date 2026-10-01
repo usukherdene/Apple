@@ -1,12 +1,15 @@
+html {
+    overflow-x: hidden;
+}
 * {
     margin: 0;
     padding: 0;
 }
 body {
-    width: 100%;
+    width: 100vw;
 }
 .head {
-    width: 24.375rem;
+    width: 100vw;
     height: 7.5626rem;
     background-color: white;
 }
@@ -54,7 +57,7 @@ body {
     text-align: center;
 }
 .main-1 {
-    width: 24.375rem;
+    width: 100vw;
     height: 63.875rem;
 }
 .mains {
@@ -208,7 +211,7 @@ body {
     justify-content: center;
 }
 .main {
-    width: 24.375rem;
+    width: 100vw;
 }
 .contsection {
     width: 100%;
@@ -643,7 +646,7 @@ body {
     display: none;
 }
 .slider-1 {
-    width: 100%;
+    width: 100vw;
     height: 33.3125rem;
 }
 .engine-1 {
@@ -750,7 +753,7 @@ body {
     border-radius: 0.25rem;
 }
 .slider-2 {
-    width: 24.375rem;
+    width: 100vw;
     height: 9.25rem;
 }
 .engine-2 {
@@ -833,10 +836,10 @@ body {
 
 @media (min-width:24.4375rem) {
     body {
-    width: 100%;
+    width: 100vw;
 }
     .head {
-    width: 48rem;
+    width: 100vw;
     height: 7.5rem;
     display: flex;
     flex-direction: column;
@@ -849,7 +852,7 @@ body {
     justify-content: center;
 }
 .main-1 {
-    width: 48rem;
+    width: 100vw;
     height: 82rem;
 }
 .mains {
@@ -938,7 +941,7 @@ body {
     font-size: 1rem;
 }
 .main {
-    width: 48rem;
+    width: 100vw;
 }
 .contsection {
     box-sizing: border-box;
@@ -955,7 +958,7 @@ body {
     display: none;
 }
 .slider-1 {
-    width: 100%;
+    width: 100vw;
     height: 25rem;
 }
 .engine-1 {
@@ -968,7 +971,161 @@ body {
     height: 23rem;
 }
 .slider-2 {
+    width: 100vw;
+    height: 12.125rem;
+}
+.engine-2 {
     width: 100%;
+    height: 10.0625rem;
+    gap: 1rem;
+}
+.slider-2-images {
+    width: 17.875rem;
+    height: 10.0625rem;
+    flex-shrink: 0;
+}
+}
+
+
+
+@media (min-width:120rem) {
+    body {
+    width: 100vw;
+}
+    .head {
+    width: 100vw;
+    height: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headcont {
+    width: 27.75rem;
+    height: 3rem;
+    margin-top: 0.75rem;
+    justify-content: center;
+}
+.main-1 {
+    width: 100vw;
+    height: 82rem;
+}
+.mains {
+    height: 40.625rem;
+}
+.main-1-1 {
+    background: url(./c1bdbb86222bed356055eaebc4806ccf147dddcb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    align-items: flex-start;
+}
+.mainframe-1 {
+    width: 25.3125rem;
+    height: 9.75rem;
+    margin-top: 3.625rem;
+}
+.main-1-title {
+    height: 3.75rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    font-size: 2.625rem;
+}
+.main-1-text {
+    height: 2rem;
+    font-size: 1.375rem;
+}
+.main-1-buttons {
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.button-1 {
+    width: 7.6875rem;
+    height: 2.75rem;
+    font-size: 1rem;
+}
+.button-2 {
+    width: 4.25rem;
+    height: 2.75rem;
+    font-size: 1rem;
+}
+.main-2-1 {
+    background: url(./03056acca3b40d2fac6464cec53adb623252f542.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0.75rem;
+    display: flex;
+    justify-content: center;
+}
+.mainframe-2 {
+    width: 25.3125rem;
+    height: 9.75rem;
+    margin-top: 3.625rem;
+}
+.main-2-title {
+    height: 3.75rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    font-size: 2.625rem;
+}
+.main-2-text {
+    height: 2rem;
+    font-size: 1.375rem;
+}
+.main-2-buttons {
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.wbutton-1 {
+    width: 7.6875rem;
+    height: 2.75rem;
+    font-size: 1rem;
+}
+.wbutton-2 {
+    width: 4.25rem;
+    height: 2.75rem;
+    font-size: 1rem;
+}
+.main {
+    width: 100vw;
+}
+.contsection {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 30.625rem);
+    border: white 12px solid;
+}
+.images {
+    width: 22.875rem;
+    height: 30.625rem;
+}
+.image-0 {
+    display: none;
+}
+.slider-1 {
+    width: 100vw;
+    height: 25rem;
+}
+.engine-1 {
+    width: 100%;
+    height: 23rem;
+    gap: 1rem;
+}
+.slider-1-images {
+    width: 43.0625rem;
+    height: 23rem;
+}
+.slider-2 {
+    width: 100vw;
     height: 12.125rem;
 }
 .engine-2 {
